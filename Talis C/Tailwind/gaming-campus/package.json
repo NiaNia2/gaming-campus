@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "campus": "npx campus -i src/styles.css -o dist/styles.css --watch"
+    "campus": "npx tailwind -i src/styles.css -o dist/styles.css --watch"
   },
   "keywords": [],
   "author": "",
