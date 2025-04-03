@@ -13,15 +13,15 @@
     <!-- HEADER -->
     <header>
         <nav class="uppercase">
-            <ul class="flex justify-center gap-5 ">
+            <ul class="flex justify-center gap-5 items-center ">
                 <li><a href="">acceuil</a></li>
-                <li class="md:block hidden"><a href="">business school</a></li>
-                <li class="md:block hidden"><a href="">ecole esport</a></li>
-                <li class="md:block hidden"><a href="">cours de jeu video</a></li>
-                <li class="md:block hidden"><a href="">le campus</a></li>
-                <li class="md:block hidden"><a href="">newsrool</a></li>
-                <li class="md:block hidden"><a href="">parent</a></li>
-                <div class="md:hidden">
+                <li class="lg:block hidden"><a href="">business school</a></li>
+                <li class="lg:block hidden"><a href="">ecole esport</a></li>
+                <li class="lg:block hidden"><a href="">cours de jeu video</a></li>
+                <li class="lg:block hidden"><a href="">le campus</a></li>
+                <li class="lg:block hidden"><a href="">newsrool</a></li>
+                <li class="lg:block hidden"><a href="">parent</a></li>
+                <div class="lg:hidden">
                     <a href=""><i class="fa-solid fa-bars"></i></a>
                 </div>
                 <!-- div menu buger md:hidden a fontburger tout les autre md:block tout les autre hidden  -->
@@ -31,11 +31,11 @@
     </header>
     <main>
         <!-- HERO -->
-        <section class="bg-black uppercase text-white py-5">
+        <section class="bg-black uppercase text-white py-5 flex flex-col justify-center">
             <div class="flex items-center justify-center gap-4">
                 <img src="assets/img/logo-gc-hero.png" alt="logo et ecriture gaming campus">
             </div>
-            <div class="flex flex-col items-center m w gap-4">
+            <div class="flex flex-col justify-center items-center text-center gap-4">
                 <h1 class="my-5">passion. professionnalisme. performance.</h1>
                 <a class="border border-white p-1 hover:bg-slate-100 hover:text-black" href="">gaming campus en video >
                 </a>
@@ -43,30 +43,71 @@
         </section>
         <!-- PARAGRAPHE -->
         <section>
-            <p class="font-light text-2xl text-center px-10">Imaginé par des professionels
+            <p class="md:font-light text-2xl text-center px-10">Imaginé par des professionels
                 des jeux vidéo et de l'éducation, Gaming Campus est un lieu unique pour révéler les talents et
                 développer
                 les compétences.</p>
         </section>
-        <section class="bg-black">
-            <div class="text-white flex">
-                <div>
+        <!-- CARDS GAMING -->
+        <section class="bg-black mb-3">
+            <div class="text-white flex flex-col text-center items-center justify-center lg:flex-row my-2 ">
+                <div class="flex items-center flex-col">
                     <img src="assets/img/logo-gbs-home.png" alt="">
                     <h3>gaming business school</h3>
                     <p>Formez-vous dans la première école de management dédiée aux enjeux et métiers du jeu vidéo.</p>
-                    <a href="">En savoir plus</a>
+                    <a class="border border-white p-1 hover:bg-slate-100 hover:text-black mb-3" href="">En savoir
+                        plus</a>
                 </div>
-                <div>
+                <div class="flex items-center flex-col">
                     <img src="assets/img/logo-ga-home.png" alt="">
                     <h3>gaming academy</h3>
                     <p>Entrainez-vous dans des conditions optimales pur devenir esportif professionnel.</p>
-                    <a href="">en savoir plus</a>
+                    <a class="border border-white p-1 hover:bg-slate-100 hover:text-black" href="">en savoir plus</a>
                 </div>
-                <div>
+                <div class="flex items-center flex-col">
                     <img src="assets/img/logo-gg-home.png" alt="">
                     <h3>gaming guru</h3>
                     <p>Jouez avec les meilleurs gamers pour vous améliorer dans vos jeu vidéo préférès.</p>
-                    <a href="">en savoir plus</a>
+                    <a class="border border-white p-1 hover:bg-slate-100 hover:text-black" href="">en savoir plus</a>
+                </div>
+            </div>
+        </section>
+        <!-- NEW CAMPUS -->
+        <section>
+            <div class="flex flex-col items-center justify-center text-center ">
+                <div class="flex flex-col gap-2 ">
+                    <h2 class="uppercase">les news du campus</h2>
+                    <p>Suivez l'actualité de Gaming Campus, de G.Guru, G.B.S et G.Acasemy.</p>
+                </div>
+                <div class="my-3">
+                    <a class="uppercase border border-black bg-white text-black p-2 hover:bg-black hover:text-white my-3 "
+                        href="">la
+                        newsroom
+                        <i class="fa-solid fa-chevron-right "></i></a>
+                </div>
+                <div>
+                    <div>
+                        <img src="assets/img/inauguration_gaming_campus_photo.jpg" alt="">
+                        <h3>Réunion d'information 19 décembre</h3>
+                        <p>Venez à notre rencontre lors de cette réunion d'information. Témoignages des étudiants /
+                            Ateliers sur la pédagogie par projet "Active Learningf by Gaming Campus" / Découverte des
+                            locaux / Rencontre avec l'équipe pédagogique / Questions réponses.</p>
+                        <a class="uppercase" href="">sur inscription</a>
+                    </div>
+                    <div>
+                        <img src="assets/img/pgw18home.jpg" alt="">
+                        <h3>Paris Games Week 2018 et réunons d'information</h3>
+                        <p>Pendant tout le mois d'octobre venez rencontrer l'équipe pédagogique du Gaming Campus : 3
+                            réunions d'information au Gaming Campus Lyon et stand Gaming Campus à la PGW18. </p>
+                        <a class="uppercase" href="">lire la suite</a>
+                    </div>
+                    <div>
+                        <img src="assets/img/inauguration_gaming_campus_photo.jpg" alt="">
+                        <h3>Inauguration Gaming Campus Lyon</h3>
+                        <p>Revivez l'inaugurations du Gaming Campus Lyon avec les 180 invités, les grandes annonces de
+                            la rentrée, les photos de la soirée et les premieères dates de réunions d'information.</p>
+                        <a class="uppercase" href="">lire la suite</a>
+                    </div>
                 </div>
             </div>
         </section>
