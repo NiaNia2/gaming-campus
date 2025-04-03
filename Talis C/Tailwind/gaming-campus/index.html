@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Campus</title>
     <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="./assets/lib/css/all.min.css">
 </head>
 
 <body class="font-roboto">
@@ -14,12 +15,17 @@
         <nav class="uppercase">
             <ul class="flex justify-center gap-5 ">
                 <li><a href="">acceuil</a></li>
-                <li><a href="">business school</a></li>
-                <li><a href="">ecole esport</a></li>
-                <li><a href="">cours de jeu video</a></li>
-                <li><a href="">le campus</a></li>
-                <li><a href="">newsrool</a></li>
-                <li class=""><a href="">parent</a></li>
+                <li class="md:block hidden"><a href="">business school</a></li>
+                <li class="md:block hidden"><a href="">ecole esport</a></li>
+                <li class="md:block hidden"><a href="">cours de jeu video</a></li>
+                <li class="md:block hidden"><a href="">le campus</a></li>
+                <li class="md:block hidden"><a href="">newsrool</a></li>
+                <li class="md:block hidden"><a href="">parent</a></li>
+                <div class="md:hidden">
+                    <a href=""><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <!-- div menu buger md:hidden a fontburger tout les autre md:block tout les autre hidden  -->
+                <li class="bg-gray-200 p-1 rounded-full">fr|en</li>
             </ul>
         </nav>
     </header>
